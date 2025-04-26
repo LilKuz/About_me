@@ -1,0 +1,303 @@
+/* General Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.6;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-weight: 2px;
+    color: black;
+    background:  linear-gradient(to bottom, #000000, #0a0f3c);
+    padding: 20px;
+}
+
+/* Style Head */
+header {
+    background-color: Black;
+    box-radius: 50%;
+    box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 1px;
+    color: darkblue;
+    color-stroke: 2px white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a{
+    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: 1px;
+    color: darkRed;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Item */
+main{
+    display: flex;
+    justify-content: space-between;
+    font-align: center;
+}
+
+.row{
+    display: float;
+    justify-content: space-between;
+    font-align: center;
+}
+
+.TengahJudul {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+.JudulDeskripsi{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+    font-align: center;
+}
+
+.DeskripsiUtama{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px
+    margin-bottom: 15px;
+}
+
+.IsiDeskripsi {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.DeskripsiKedua {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px
+    margin-bottom: 15px;
+}
+
+.IsiDeskripsi2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.DeskripsiKetiga {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.IsiDeskripsi3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 170px;
+}
+
+.JudulDeskripsih{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 50px;
+    font-align: center;
+}
+
+.DeskripsiUtamah{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.IsiDeskripsih {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 150px;
+}
+
+.DeskripsiKeduah {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.IsiDeskripsi2h {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.DeskripsiKetigah {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+.IsiDeskripsi3h {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 170px;
+}
+
+.JudulDeskripsiA {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 50px;
+    font-align: center;
+    margin-bottom: 750px;
+}
+
+.DeskripsiUtamaA{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    font-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 29%;
+    top: 110%;
+}
+
+.DeskripsiKeduaA {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    font-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 27%;
+    top: 120%;
+}
+
+.DeskripsiKetigaA {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    font-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 29%;
+    top: 130%;
+}
+
+.DeskripsiKeempatA {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+    font-weight: bold;
+    font-size: 40px;
+    font-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 38%;
+    top: 140%;
+}
+
+/* Photo Profile */
+.PenjelasanGua{
+    position: absolute;
+    right: 18%;
+    top: -10%;
+    font-size: 45px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: Black;
+
+}
+
+.PhotoContainer {
+  position: absolute;
+  right: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+
+.PhotoProfile{
+    width: 280px;
+    height: 280px;
+    Border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11123C;
+}
+
+.PhotoProfile img{
+    width: 280px;
+    height: 280px;
+    object-position : right bottom;
+}
+
+.Tgl {
+    -webkit-text-stroke-color: Purple;
+    -webkit-text-stroke-width: 1.5px;
+    color: white;
+    position: absolute;
+    right: 16%;
+    top: 92%;
+    font-size: 27px
+}
+
+.FotoIrenkPutih {
+  position: absolute;
+  right: 30%;
+  top: 70%;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+
+/* footer */
+footer {
+    background-color: Black;
+    box-radius: 50%;
+    box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 1px;
+    color: darkblue;
+    color-stroke: 2px white;
+    padding: 10px;
+    text-align: center;
+}
